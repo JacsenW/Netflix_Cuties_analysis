@@ -1,140 +1,162 @@
-📉 Netflix Cuties Controversy: Business, Subscriber, and Revenue Impact Analysis
+# 📉 Netflix Cuties Controversy: Business, Subscriber, and Revenue Impact Analysis
 
-📖 What Happened?
-In August 2020, Netflix released a trailer for the film Cuties — and instantly faced global backlash. Accusations of exploitation swept through social media, and calls to cancel Netflix trended worldwide.
+## 📖 What Happened?
+
+In August 2020, Netflix released a trailer for the film *Cuties* — and instantly faced global backlash. Accusations of exploitation swept across social media, with hashtags like **#CancelNetflix** trending worldwide.
 
 But did this controversy really hurt Netflix’s business?
 
 As a data analyst, I asked:
-Was there a financial hit?
+- Was there a **financial hit**?
+- Did **fewer people sign up**?
+- Did **subscriber churn increase**?
+- Did the controversy shake **investor confidence**?
+- Was it just noise, or a real business risk?
 
-Did fewer people sign up?
+---
 
-Did subscriber churn increase?
+## 📊 Project Overview
 
-Did the controversy shake investor confidence?
+This **end-to-end analytics project** analyzes Netflix’s stock performance, subscriber trends, revenue impact, and a simulated lead-to-quote-to-cash funnel — before, during, and after the Cuties backlash.
 
-Was it just noise, or a real risk to the business?
+Leveraging real earnings data and simulated user behavior, this report answers key business questions and provides insight into:
+- 📈 Subscriber acquisition trends
+- 📉 Churn and retention patterns
+- 💸 Revenue impact modeling
+- 🧲 Funnel breakdown during PR crisis
+- 🧠 Strategic lessons for brand trust
 
-📊 Project Overview
-This end-to-end analytics project dives into Netflix’s stock performance, subscriber trends, revenue flows, and a simulated lead-to-quote-to-cash funnel during and after the Cuties backlash.
+---
 
-Using a combination of real financial/subscriber data and modeled business assumptions, we assess whether this brand crisis caused temporary buzz or measurable damage.
+## 💰 Stock Market Reaction
 
-Story & Findings
-💰 Did Stock Performance Reflect the Backlash?
-Yes — but only briefly.
+**Did Stock Performance Reflect the Backlash?**  
+✅ Yes — but only briefly.
 
-📈 On August 18, 2020, Netflix released the Cuties trailer. The stock spiked from ~$500 to $550.
+| 📅 Date             | Event                     | Price Impact      |
+|--------------------|---------------------------|-------------------|
+| Aug 18, 2020       | *Cuties* Trailer Released | 📈 $500 → $550     |
+| Sept 9, 2020       | Film Released             | 📉 $500 → $450     |
+| Q4 2020 Close      | Post-Recovery             | 🔄 ~$482           |
 
-📉 After the full film dropped on September 9, the stock dipped to ~$450 — a clear market reaction.
+![netlfix stock price plotlib](https://github.com/user-attachments/assets/39355723-6c55-4577-8d95-8ecb2d6b2e5f)
 
-💼 Yet, it never fell below $450, and quickly recovered, closing Q4 around $482.
 
-![netlfix stock price plotlib](https://github.com/user-attachments/assets/ea9c04a8-e724-4085-b986-81ccb97d4d24)
+**📌 Conclusion**: Investors responded to the backlash, but didn’t panic. The stock quickly rebounded, signaling **confidence in Netflix’s long-term strength**.
 
-👉 Conclusion: Investors noticed the backlash, but didn’t panic. The concern was real, but confidence remained strong.
+---
 
-👥 Did Subscribers Cancel?
-Not significantly.
+## 👥 Subscriber Trends
 
-Using real subscriber metrics from earnings reports:
+**Did Users Cancel in Large Numbers?**  
+🚫 No.
 
-Quarter	Global Subscribers
-Q1 2020	~183M
-Q2 2020	~193M
-Q3 2020	~195M
-Q4 2020	200M+
+| Quarter | Global Subscribers |
+|---------|--------------------|
+| Q1 2020 | ~183M              |
+| Q2 2020 | ~193M              |
+| Q3 2020 | ~195M              |
+| Q4 2020 | 200M+              |
 
-📌 Churn stayed low — even at high churn simulation (8%), subscriber levels never dropped below 170M (not realistic). Netflix retained its base.
-![Simluted Subscriber Counts](https://github.com/user-attachments/assets/916a768a-fbc8-424b-8ae6-3decabc4978b)
+![netflix subs plotlib](https://github.com/user-attachments/assets/21ccf3a1-ed21-4a9a-b83d-df1762b3b384)
 
-👉 Conclusion: Most people didn’t cancel. The issue wasn’t retention — it was acquisition.
+![Simluted Subscriber Counts](https://github.com/user-attachments/assets/14abcf93-629f-4566-bd12-d4a5e92a447b)
 
-🚪 Did Fewer People Sign Up?
-Yes — and that’s where the real business impact hit.
+**📌 Conclusion**: Netflix retained its base. Churn remained low — even with simulated churn as high as 8%, numbers didn’t realistically dip.  
+**The problem wasn't retention. It was acquisition.**
 
-Simulated lead-to-quote-to-cash data (from July to October) showed:
+---
+
+## 🚪 Lead-to-Quote Funnel Breakdown
+
+**Did Fewer People Sign Up?**  
+✅ Yes — *this is where the damage was clear*.
 
 | Stage              | July   | August | **September** | October |
-| ------------------ | ------ | ------ | ------------- | ------- |
+|-------------------|--------|--------|---------------|---------|
 | Site Visitors      | 10,000 | 12,000 | 11,000        | 12,500  |
 | Engaged Users      | 8,000  | 9,500  | **6,000**     | 10,000  |
 | Pricing Page Views | 5,000  | 7,000  | **4,000**     | 8,000   |
 | Signups            | 2,000  | 4,500  | **2,500**     | 6,000   |
 
-![netflix lead to quote ](https://github.com/user-attachments/assets/b9f576a4-b9d9-43a3-bddb-4a14c12fc9df)
-
-📉 In September:
-
-Engagement dropped by 37%
-
-Pricing interest dropped 43%
-
-Signups dropped 44%
-
-All while traffic remained strong.
-
-👉 Conclusion: The controversy broke trust at the middle/bottom funnel. People visited, explored — but refused to convert.
-
-💸 What Was the Estimated Revenue Loss?
-Using ARPU (Average Revenue per User) and missed signup estimates:
-
-![estimated netflix lost ](https://github.com/user-attachments/assets/7a344d3f-ceec-446d-b771-cd862aae71b9)
+![netflix lead to quote ](https://github.com/user-attachments/assets/c1927086-6d68-4870-aac2-20cf58f13b34)
 
 
-📉 Netflix likely missed out on $500 million in long-term revenue in Q3 2020 due to slowed acquisition.
+**📉 September Drop-Off**:
+- 37% decrease in engaged users  
+- 43% decrease in pricing views  
+- 44% decrease in signups  
 
-Why?
+📌 **Conclusion**: Traffic remained steady, but **trust was broken**. Users came, browsed — and bounced. The brand couldn’t convert.
 
-Existing users didn’t leave → no churn impact
+---
 
-But new users stopped converting
+## 💸 Revenue Impact
 
-That’s future revenue — gone
+**What Was the Estimated Revenue Loss?**  
+Using average revenue per user (ARPU) and missed conversion estimates:
 
-👉 Conclusion: No cancellations ≠ no damage. The real loss was opportunity cost.
+![estimated netflix lost ](https://github.com/user-attachments/assets/d1161aa6-60bb-4256-9001-645fc1f6d133)
 
-💬 Did Sentiment Influence Behavior?
-Although not quantified with NLP in this version, we know:
 
-Social media exploded with “#CancelNetflix”
+> 💰 Estimated long-term revenue loss in Q3 2020: **$500 million**
 
-Brand trust dropped sharply
+**📌 Why?**
+- Churn was low → no immediate loss  
+- Acquisition plummeted → **future revenue gone**
 
-Conversion dropped the same month
+📌 **Conclusion**: No cancellations ≠ no damage.  
+The controversy caused a **silent opportunity cost**.
 
-👉 Conclusion: Sentiment and signups were tightly linked. Negative PR killed momentum — but only temporarily.
+---
 
-🔁 Which Business Processes Were Affected?
-Based on modeled conversion data:
+## 💬 Sentiment & Behavior Correlation
 
-✅ Lead generation was strong (visitors)
-❌ Conversion efficiency collapsed (pricing + signups)
-✅ Billing and retention were stable (no refund spike or churn)
+Though not NLP-modeled in this version, real-world sentiment showed:
 
-👉 Conclusion: The middle stages of the lead-to-quote-to-cash process broke down. The brand couldn't close.
+- Social media was flooded with outrage  
+- “#CancelNetflix” trended globally  
+- User signups dropped in the same month  
 
-🧠 What Should Netflix Learn?
-Crisis doesn’t always cause churn.
-But it can delay growth, kill acquisition, and cost millions — quietly.
+📌 **Conclusion**: Brand sentiment **directly affected user behavior**.  
+Conversion rates fell as negative headlines rose.
 
-Key takeaways:
+---
 
-Don’t assume retention = brand health
+## 🔁 Business Process Impact
 
-Monitor funnel conversions, not just cancellations
+Analyzing the lead-to-quote-to-cash model:
 
-Prepare messaging and trust-building campaigns fast
+✅ **Lead Generation**: Strong  
+❌ **Quote/Signup Conversion**: Broken  
+✅ **Billing/Retention**: Stable
 
-Use sentiment + funnel analytics in real time during PR events
+📌 **Conclusion**: The **middle stages collapsed**. Awareness wasn’t the issue — conversion trust was.
 
-🛠 Tools Used
-Python: ETL, simulation, financial modeling
+---
 
-Power BI: Dashboard and business storytelling
+## 🧠 Strategic Business Takeaways
 
-Pandas, NumPy, Matplotlib
+This project highlights how **public controversies** affect more than headlines:
 
-GitHub: Version control, documentation
+- 👁 Watch middle-funnel metrics, not just churn
+- 🧠 Sentiment impacts trust → trust affects conversion
+- 🔄 Controversy delays growth more than it causes loss
+- 📣 Crisis response must preserve brand integrity + UX
 
+---
+
+## 🛠 Tools & Technologies
+
+| Tool       | Use Case                          |
+|------------|-----------------------------------|
+| `Python`   | ETL, data simulation, modeling    |
+| `Pandas`   | Data wrangling & transformation   |
+| `NumPy`    | Numeric computations              |
+| `Matplotlib` | Data visualization (stock trends, churn) |
+| `Power BI` | Funnel charts, KPI dashboards     |
+| `GitHub`   | Version control & documentation   |
+
+![netflix preview](https://github.com/user-attachments/assets/86124179-1942-44dc-8a62-d390f55631e5)
+
+---
